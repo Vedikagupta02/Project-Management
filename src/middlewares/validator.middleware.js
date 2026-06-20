@@ -1,8 +1,7 @@
 import { validationResult } from "express-validator";
 import { ApiError } from "../utils/api-error.js";
-import e from "express";
 
-const validate=(req, res, next)=>{
+const validate = (req, res, next) => {
     const errors=validationResult(req)
     if(errors.isEmpty()){
         return next()

@@ -1,9 +1,7 @@
-import { url } from "inspector";
-import mongoose, {Schema} from "mongoose";
-import { type } from "os";
-import bcrypt from "bcrypt"
-import jwt from "jsonwebtoken"
-import crypto from "crypto"
+import mongoose, { Schema } from "mongoose";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import crypto from "crypto";
 
 // Define the User schema
 const userSchema = new Schema(

@@ -1,6 +1,5 @@
 import mailgen from "mailgen";
 import nodemailer from "nodemailer";
-import { act } from "react";
 
 const sendEmail = async (options)=>{
     const mailgenerator=new mailgen({
